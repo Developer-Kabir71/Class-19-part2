@@ -267,6 +267,9 @@ header nav ul li:hover ul{
     background-color: #C69453;
     color: #fff;
 }
+summary{
+    cursor: pointer;
+}
 /* Vedio Section End */
 
 /* Contact section Start */
