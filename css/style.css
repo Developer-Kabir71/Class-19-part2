@@ -223,11 +223,13 @@ header nav ul li:hover ul{
     background-color: #C69453;
     padding: 10px 25px;
     border-radius: 5px;
+    transform: translateY(0px);
     transition: .5s;
 }
 .service-box a:hover{
     background-color: #000;
     color: #fff;
+    transform: translateY(10px);
 }
 /* Service Section End */
 
@@ -296,8 +298,7 @@ summary{
 .allinput {
     padding: 10px;
     width: 450px;
-    margin: 10px 0;
-    outline: none;
+    margin: 10px 0; 
 }
 .contact button {
     display: inline-block;
@@ -307,6 +308,10 @@ summary{
     font-size: 16px;
     font-weight: 600;
     color: white;
+    transition: .5s;
+}
+.contact button:hover{
+    background-color: #000;
 }
 /* Contact section */
 
